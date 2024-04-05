@@ -10,4 +10,4 @@ Cantor Pro Frood is based on the original Cantor Keyboard by Diego Palacios, wit
 
 Cantor Pro Frood kit is available for purchase at [42. Keebs](https://42keebs.eu/shop/kits/pro-micro-based/cantor-pro-frood-40-low-profile-hotswap-split-ergo-kit/).
 
-![Cantor Pro Frood PCB](https://github.com/piit79/cantor/raw/main/pcb-pro-frood/pcb-pro-frood.png)
+![Cantor Pro Frood PCB](https://github.com/piit79/cantor/raw/main/pcb-pro-frood/cantor-pro-frood-pcb.png)
