@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "9538e4ed-27e6-4c37-b989-9859dc0d49e8")
 	(paper "A4")
 	(title_block
@@ -68,16 +68,16 @@
 				)
 			)
 			(symbol "Frood+nice!nano_0_0"
-				(text "ADC0"
-					(at 5.08 2.54 0)
+				(text "USB"
+					(at 0 22.86 0)
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(text "ADC1"
-					(at 5.08 5.08 0)
+				(text "ADC3"
+					(at 5.08 10.16 0)
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -92,19 +92,19 @@
 						)
 					)
 				)
-				(text "ADC3"
-					(at 5.08 10.16 0)
+				(text "ADC1"
+					(at 5.08 5.08 0)
 					(effects
 						(font
 							(size 0.9906 0.9906)
 						)
 					)
 				)
-				(text "USB"
-					(at 0 22.86 0)
+				(text "ADC0"
+					(at 5.08 2.54 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.9906 0.9906)
 						)
 					)
 				)
@@ -163,6 +163,150 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 20.32 0)
+					(length 5.08)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 17.78 0)
+					(length 5.08)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -20.32 15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 10.16 0)
+					(length 5.08)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "GPIO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -333,16 +477,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -7.62 180)
+					(at 20.32 22.86 180)
 					(length 5.08)
-					(name "GPIO21"
+					(name "USB_D-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "19"
+					(number "31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -350,143 +494,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -20.32 20.32 0)
+				(pin power_in line
+					(at 20.32 20.32 180)
 					(length 5.08)
-					(name "GPIO0"
+					(name "RAW"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "GPIO23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "GPIO20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "GPIO22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 2.54 180)
-					(length 5.08)
-					(name "GPIO26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 5.08 180)
-					(length 5.08)
-					(name "GPIO27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 7.62 180)
-					(length 5.08)
-					(name "GPIO28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 10.16 180)
-					(length 5.08)
-					(name "GPIO29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
+					(number "30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -495,16 +513,16 @@
 					)
 				)
 				(pin power_out line
-					(at 20.32 12.7 180)
+					(at 20.32 17.78 180)
 					(length 5.08)
-					(name "VCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "27"
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -531,16 +549,16 @@
 					)
 				)
 				(pin power_out line
-					(at 20.32 17.78 180)
+					(at 20.32 12.7 180)
 					(length 5.08)
-					(name "GND"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "29"
+					(number "27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -549,34 +567,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 17.78 0)
+					(at 20.32 10.16 180)
 					(length 5.08)
-					(name "GPIO1"
+					(name "GPIO29"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 20.32 180)
-					(length 5.08)
-					(name "RAW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -585,16 +585,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 22.86 180)
+					(at 20.32 7.62 180)
 					(length 5.08)
-					(name "USB_D-"
+					(name "GPIO28"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "31"
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -603,16 +603,124 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -20.32 180)
+					(at 20.32 5.08 180)
 					(length 5.08)
-					(name "P1.07"
+					(name "GPIO27"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "32"
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "GPIO26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "GPIO22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "GPIO20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "GPIO23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "GPIO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -15.24 180)
+					(length 5.08)
+					(name "P1.01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -639,124 +747,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -15.24 180)
+					(at 20.32 -20.32 180)
 					(length 5.08)
-					(name "P1.01"
+					(name "P1.07"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -20.32 15.24 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -20.32 12.7 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 10.16 0)
-					(length 5.08)
-					(name "GPIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 7.62 0)
-					(length 5.08)
-					(name "GPIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 5.08 0)
-					(length 5.08)
-					(name "GPIO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 2.54 0)
-					(length 5.08)
-					(name "GPIO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -765,6 +765,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "42keebs:USB_C_GCT_USB4085"
 			(pin_names
@@ -860,7 +861,7 @@
 					)
 				)
 				(pin input line
-					(at 2.54 -16.51 180)
+					(at 2.54 16.51 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -869,7 +870,7 @@
 							)
 						)
 					)
-					(number "A12"
+					(number "B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -896,6 +897,42 @@
 					)
 				)
 				(pin input line
+					(at 2.54 11.43 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 8.89 180)
+					(length 2.54)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 2.54 6.35 180)
 					(length 2.54)
 					(name "CC1"
@@ -906,6 +943,24 @@
 						)
 					)
 					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 3.81 180)
+					(length 2.54)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -950,6 +1005,24 @@
 					)
 				)
 				(pin input line
+					(at 2.54 -3.81 180)
+					(length 2.54)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 2.54 -6.35 180)
 					(length 2.54)
 					(name "SBU1"
@@ -960,78 +1033,6 @@
 						)
 					)
 					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -11.43 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -19.05 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 16.51 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -13.97 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1058,61 +1059,7 @@
 					)
 				)
 				(pin input line
-					(at 2.54 -3.81 180)
-					(length 2.54)
-					(name "DP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 3.81 180)
-					(length 2.54)
-					(name "DN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 8.89 180)
-					(length 2.54)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 11.43 180)
+					(at 2.54 -11.43 180)
 					(length 2.54)
 					(name "VBUS"
 						(effects
@@ -1121,7 +1068,61 @@
 							)
 						)
 					)
-					(number "B9"
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -13.97 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -16.51 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -19.05 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1148,10 +1149,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1218,14 +1222,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -1240,14 +1244,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -1287,265 +1291,16 @@
 					)
 				)
 			)
-		)
-		(symbol "LED:WS2812B"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "WS2812B"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WS2812B_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "WS2812B_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "WS2812B_1_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1643,11 +1398,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1728,10 +1488,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -1740,9 +1499,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1788,10 +1548,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1898,24 +1661,6 @@
 			)
 			(symbol "SW_SPDT_1_1"
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
@@ -1926,6 +1671,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1952,6 +1715,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "keebio:TRRS"
 			(pin_names
@@ -2005,17 +1769,6 @@
 			)
 			(symbol "TRRS_0_1"
 				(rectangle
-					(start -3.81 0)
-					(end -3.81 12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start -3.81 12.7)
 					(end 5.08 12.7)
 					(stroke
@@ -2027,8 +1780,8 @@
 					)
 				)
 				(rectangle
-					(start 5.08 0)
-					(end -3.81 0)
+					(start -3.81 0)
+					(end -3.81 12.7)
 					(stroke
 						(width 0)
 						(type default)
@@ -2048,26 +1801,19 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "TRRS_1_1"
-				(pin input line
-					(at -8.89 2.54 0)
-					(length 5.08)
-					(name "SLEEVE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(rectangle
+					(start 5.08 0)
+					(end -3.81 0)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type none)
 					)
 				)
+			)
+			(symbol "TRRS_1_1"
 				(pin input line
 					(at -8.89 10.16 0)
 					(length 5.08)
@@ -2122,7 +1868,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 5.08)
+					(name "SLEEVE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "keyboard_parts:KEYSW"
 			(pin_names
@@ -2174,23 +1939,23 @@
 				)
 			)
 			(symbol "KEYSW_0_1"
-				(circle
-					(center -5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -5.08 1.27) (xy 3.81 3.81)
 					)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2211,24 +1976,6 @@
 			)
 			(symbol "KEYSW_1_1"
 				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -7.62 0 0)
 					(length 1.27)
 					(name "~"
@@ -2246,7 +1993,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
@@ -2324,7 +2090,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2336,7 +2102,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2350,7 +2116,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -2367,6 +2134,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -2446,7 +2214,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -2463,12 +2232,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VBUS"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2540,7 +2314,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2552,7 +2326,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2583,7 +2357,74 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 31.75 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "625ba08f-01d1-46e2-8310-476cd8a02e59")
+	)
+	(text "18"
+		(exclude_from_sim no)
+		(at 31.75 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62a65e5a-49f1-4f0d-9369-ed128347ffda")
+	)
+	(text "16"
+		(exclude_from_sim no)
+		(at 31.75 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "768dc4d3-f7ba-459b-bcd4-b1498bceb024")
+	)
+	(text "15"
+		(exclude_from_sim no)
+		(at 31.75 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81d1c5df-bc1d-4eed-aa62-f790ff1c561e")
+	)
+	(text "(Right half)"
+		(exclude_from_sim no)
+		(at 27.94 68.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "906a23f9-0d35-4be3-9520-ce15c406a079")
+	)
+	(text "17"
+		(exclude_from_sim no)
+		(at 31.75 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e40eed40-a3a5-41e1-9ec9-2216afb34e9f")
 	)
 	(junction
 		(at 40.64 106.68)
@@ -2592,28 +2433,10 @@
 		(uuid "088d43c1-a0f0-469a-baca-053da660a58d")
 	)
 	(junction
-		(at 244.602 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0918bdf8-774b-426a-94c8-e21df16d5046")
-	)
-	(junction
-		(at 127.508 106.934)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ec52764-a9d8-4fce-962e-f82f949bece7")
-	)
-	(junction
 		(at 40.64 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "150ccb7c-0e7a-406f-8df2-71cfef6741c1")
-	)
-	(junction
-		(at 226.822 106.934)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d80952b-2011-47a9-9d4e-d0eb6025cb35")
 	)
 	(junction
 		(at 40.64 144.78)
@@ -2634,40 +2457,16 @@
 		(uuid "3d238c3c-7f65-48e8-9a87-0345fd2d06be")
 	)
 	(junction
-		(at 146.812 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f9a4a6e-cda1-4855-8b06-ac943ffcf7b3")
-	)
-	(junction
 		(at 69.85 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40663042-5c67-4229-bc60-430f0338043a")
 	)
 	(junction
-		(at 182.372 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48afe83b-69c8-456f-99f8-78fabd4eb358")
-	)
-	(junction
-		(at 244.602 106.934)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4977e8ae-40eb-44ed-8629-03f755325af4")
-	)
-	(junction
 		(at 45.72 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63ca0aec-a476-4b18-8b17-dc8d7c6bdb1e")
-	)
-	(junction
-		(at 262.382 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65045fca-f915-4cc5-bcb8-1e45ce267523")
 	)
 	(junction
 		(at 45.72 127)
@@ -2682,22 +2481,10 @@
 		(uuid "924e9de5-0548-47a4-9115-ed2e894d6460")
 	)
 	(junction
-		(at 207.518 106.934)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95ec0eb1-b965-43d5-84e9-ac5f7a1a8c07")
-	)
-	(junction
 		(at 43.18 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cd09d24-e5a5-43f6-9be0-d56c0d4b1121")
-	)
-	(junction
-		(at 164.592 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dc0a328-1c62-4d79-bd1b-0803d40abe04")
 	)
 	(junction
 		(at 40.64 41.91)
@@ -2717,24 +2504,6 @@
 		(color 0 0 0 0)
 		(uuid "a90bc78a-da95-427c-9f92-591ea92cf5ea")
 	)
-	(junction
-		(at 146.812 106.934)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad2e4024-8fec-4f23-8866-c7c446d53f9e")
-	)
-	(junction
-		(at 226.822 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c228a837-7c14-4c22-a2eb-86fbe05087aa")
-	)
-	(junction
-		(at 164.592 106.934)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fea65847-495e-49f2-9f3c-b73bf052edf6")
-	)
 	(no_connect
 		(at 40.64 31.75)
 		(uuid "0d4a481b-d4eb-4057-989d-1c3de4bd2912")
@@ -2752,10 +2521,6 @@
 		(uuid "4aa0183d-eac8-4524-8b7c-0eb54c99ed7b")
 	)
 	(no_connect
-		(at 278.892 140.97)
-		(uuid "62de9561-0b00-48c3-a5b3-c440fa99cb1d")
-	)
-	(no_connect
 		(at 45.212 176.53)
 		(uuid "6bbfbee1-50a6-4545-9cc9-23900f018770")
 	)
@@ -2768,8 +2533,8 @@
 		(uuid "8c95a4ef-1ad3-43c0-a049-62dec3c55e2c")
 	)
 	(no_connect
-		(at 198.882 140.97)
-		(uuid "909842fa-630e-4860-a5c0-d7ae01776392")
+		(at 40.64 80.01)
+		(uuid "a4792c4a-68b7-4be8-81bf-ebe4738640c5")
 	)
 	(no_connect
 		(at 38.1 116.84)
@@ -2813,26 +2578,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.332 106.934) (xy 244.602 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "077f7fa5-f65b-41d1-986e-d9b5d4f69b0b")
-	)
-	(wire
-		(pts
-			(xy 244.602 106.934) (xy 245.872 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07f03c52-6db0-4e00-83c0-901d6790002b")
-	)
-	(wire
-		(pts
 			(xy 81.28 52.07) (xy 87.63 52.07)
 		)
 		(stroke
@@ -2850,16 +2595,6 @@
 			(type default)
 		)
 		(uuid "0be1d4d0-9898-42fd-b691-f09f96cd2b1e")
-	)
-	(wire
-		(pts
-			(xy 244.602 96.774) (xy 244.602 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e786683-3380-457b-8979-6dd05e1ba0a9")
 	)
 	(wire
 		(pts
@@ -2923,16 +2658,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.322 106.934) (xy 164.592 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15fc616a-20f6-4de4-b6b5-3c2fce241516")
-	)
-	(wire
-		(pts
 			(xy 43.18 137.16) (xy 43.18 134.62)
 		)
 		(stroke
@@ -2940,16 +2665,6 @@
 			(type default)
 		)
 		(uuid "17456dff-606c-43c0-8971-0f1ff62b64e0")
-	)
-	(wire
-		(pts
-			(xy 210.312 106.934) (xy 207.518 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18319e02-da11-4713-9d89-1d0f5647688d")
 	)
 	(wire
 		(pts
@@ -3000,16 +2715,6 @@
 			(type default)
 		)
 		(uuid "1f8dfa24-d89b-40fe-8330-5005023915bf")
-	)
-	(wire
-		(pts
-			(xy 182.372 140.97) (xy 183.642 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23c906a4-19be-4839-9877-5e1e6579ebac")
 	)
 	(wire
 		(pts
@@ -3073,36 +2778,6 @@
 	)
 	(wire
 		(pts
-			(xy 225.552 140.97) (xy 226.822 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eec0bd1-02f8-4295-bbad-0978c9486d07")
-	)
-	(wire
-		(pts
-			(xy 130.302 106.934) (xy 127.508 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f4a3e3c-13e0-4bbf-b93a-8a43082a5a55")
-	)
-	(wire
-		(pts
-			(xy 226.822 106.934) (xy 228.092 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fd635b6-9156-48cd-8d37-42baf27dba77")
-	)
-	(wire
-		(pts
 			(xy 190.5 27.94) (xy 195.58 27.94)
 		)
 		(stroke
@@ -3133,16 +2808,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.518 96.774) (xy 207.518 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f1fd331-8166-42fb-8c00-1fdba1e524d6")
-	)
-	(wire
-		(pts
 			(xy 34.29 74.93) (xy 40.64 74.93)
 		)
 		(stroke
@@ -3150,16 +2815,6 @@
 			(type default)
 		)
 		(uuid "4265c78d-f281-49e6-a1b4-f46edeaca579")
-	)
-	(wire
-		(pts
-			(xy 243.332 140.97) (xy 244.602 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "431c67af-c18d-4dd6-8987-7c9e6b4db439")
 	)
 	(wire
 		(pts
@@ -3200,36 +2855,6 @@
 			(type default)
 		)
 		(uuid "498f0575-c22a-48f3-a7b3-3a5c18747f81")
-	)
-	(wire
-		(pts
-			(xy 145.542 140.97) (xy 146.812 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ae99f8e-e434-47b8-b748-7d6cb4d1acff")
-	)
-	(wire
-		(pts
-			(xy 127.508 96.774) (xy 127.508 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bdb348b-d19d-443b-8f8a-ea701c7191d3")
-	)
-	(wire
-		(pts
-			(xy 164.592 130.81) (xy 164.592 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f89f221-e6ed-490c-b812-b9f1c834001d")
 	)
 	(wire
 		(pts
@@ -3283,26 +2908,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.112 140.97) (xy 262.382 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a25dc64-0d48-4374-aef7-dabd07be1c39")
-	)
-	(wire
-		(pts
-			(xy 262.382 130.81) (xy 262.382 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b178b28-cb39-4a1f-9ac0-4670174c63be")
-	)
-	(wire
-		(pts
 			(xy 236.22 30.48) (xy 236.22 27.94)
 		)
 		(stroke
@@ -3320,16 +2925,6 @@
 			(type default)
 		)
 		(uuid "63256a18-a052-4459-8ce3-218aa27347b9")
-	)
-	(wire
-		(pts
-			(xy 182.372 130.81) (xy 182.372 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "637aa774-a04d-4ef3-bb38-53940e21ccc0")
 	)
 	(wire
 		(pts
@@ -3393,16 +2988,6 @@
 	)
 	(wire
 		(pts
-			(xy 225.552 106.934) (xy 226.822 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72923d83-20ea-40bb-8647-46fee5993b65")
-	)
-	(wire
-		(pts
 			(xy 81.28 54.61) (xy 87.63 54.61)
 		)
 		(stroke
@@ -3410,26 +2995,6 @@
 			(type default)
 		)
 		(uuid "73c31faa-0c1b-4da5-97f7-3ef3fa45c199")
-	)
-	(wire
-		(pts
-			(xy 226.822 140.97) (xy 228.092 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75452bec-7e91-44bc-bea6-294ac29ca7a0")
-	)
-	(wire
-		(pts
-			(xy 164.592 140.97) (xy 165.862 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7754d56b-f1c5-4167-8813-1cc27be1d7b6")
 	)
 	(wire
 		(pts
@@ -3463,16 +3028,6 @@
 	)
 	(wire
 		(pts
-			(xy 244.602 130.81) (xy 244.602 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b1ec450-2e6e-466e-9e12-83198a915872")
-	)
-	(wire
-		(pts
 			(xy 81.28 57.15) (xy 87.63 57.15)
 		)
 		(stroke
@@ -3490,26 +3045,6 @@
 			(type default)
 		)
 		(uuid "7d186e2b-89ed-4e45-b0bb-b0a628e2e5ec")
-	)
-	(wire
-		(pts
-			(xy 164.592 106.934) (xy 165.862 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f01f79d-fbd3-401f-906e-973c30c16cf2")
-	)
-	(wire
-		(pts
-			(xy 207.518 140.97) (xy 210.312 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fa76d07-be9b-4db6-9c28-dbe65b05519c")
 	)
 	(wire
 		(pts
@@ -3543,16 +3078,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.452 106.934) (xy 181.102 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877fc470-7b62-42ed-a3c0-b573950e3b25")
-	)
-	(wire
-		(pts
 			(xy 261.62 60.96) (xy 261.62 58.42)
 		)
 		(stroke
@@ -3580,16 +3105,6 @@
 			(type default)
 		)
 		(uuid "8bdec3cd-3137-4b2b-b25f-e48f95af8bf0")
-	)
-	(wire
-		(pts
-			(xy 226.822 130.81) (xy 226.822 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d6ff645-ef3d-4688-912b-43029702bec2")
 	)
 	(wire
 		(pts
@@ -3663,46 +3178,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.822 96.774) (xy 226.822 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95594148-0e8b-4543-9ac7-ab7488b060a8")
-	)
-	(wire
-		(pts
-			(xy 146.812 130.81) (xy 146.812 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a5d960-7441-48c2-b9bc-e526c14463af")
-	)
-	(wire
-		(pts
-			(xy 262.382 140.97) (xy 263.652 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9674648c-445f-42e2-8f01-0ccfa00c563d")
-	)
-	(wire
-		(pts
-			(xy 145.542 106.934) (xy 146.812 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "967b91b5-79e6-4ed4-b79d-53d5583574c2")
-	)
-	(wire
-		(pts
 			(xy 87.63 74.93) (xy 81.28 74.93)
 		)
 		(stroke
@@ -3720,16 +3195,6 @@
 			(type default)
 		)
 		(uuid "98d3e8b0-8cbf-4b4f-a56b-ca6e769d120d")
-	)
-	(wire
-		(pts
-			(xy 244.602 140.97) (xy 245.872 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b51a120-6e4f-4d7a-b359-af6cb07545df")
 	)
 	(wire
 		(pts
@@ -3813,16 +3278,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.518 106.934) (xy 207.518 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acecf400-e78c-4c38-8377-c46a57b9a771")
-	)
-	(wire
-		(pts
 			(xy 114.3 43.18) (xy 119.38 43.18)
 		)
 		(stroke
@@ -3893,16 +3348,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.462 106.934) (xy 261.112 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc1910cb-2f1d-4b5d-97d4-22bdebde109e")
-	)
-	(wire
-		(pts
 			(xy 81.28 44.45) (xy 87.63 44.45)
 		)
 		(stroke
@@ -3910,26 +3355,6 @@
 			(type default)
 		)
 		(uuid "bd3ba297-37a3-4ca0-bd8b-89cc1bacee25")
-	)
-	(wire
-		(pts
-			(xy 127.508 106.934) (xy 127.508 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "becc46bd-8d42-4f93-a0e4-ab9360720332")
-	)
-	(wire
-		(pts
-			(xy 146.812 140.97) (xy 148.082 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfb00cbd-1b09-47f7-9395-0ca4f943c1c7")
 	)
 	(wire
 		(pts
@@ -3980,16 +3405,6 @@
 			(type default)
 		)
 		(uuid "c5fc4551-5cb8-4c57-bf35-0659bf213992")
-	)
-	(wire
-		(pts
-			(xy 163.322 140.97) (xy 164.592 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6b6d4c2-67b1-4d3c-a421-b64601a9282a")
 	)
 	(wire
 		(pts
@@ -4093,16 +3508,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.812 106.934) (xy 148.082 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9899716-a0ec-4f6c-9eae-283f870f2231")
-	)
-	(wire
-		(pts
 			(xy 34.29 34.29) (xy 40.64 34.29)
 		)
 		(stroke
@@ -4110,16 +3515,6 @@
 			(type default)
 		)
 		(uuid "dbc18dc8-7d21-4a35-b25f-7b585b397ed2")
-	)
-	(wire
-		(pts
-			(xy 181.102 140.97) (xy 182.372 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dde4c86d-ba75-4f02-a566-9aace13f4263")
 	)
 	(wire
 		(pts
@@ -4183,26 +3578,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.812 96.774) (xy 146.812 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5abdc9a-ef17-41e6-aef5-a1d1e9095e64")
-	)
-	(wire
-		(pts
-			(xy 34.29 80.01) (xy 40.64 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e64e1592-c31f-48b8-972b-d2a83c293f19")
-	)
-	(wire
-		(pts
 			(xy 165.1 27.94) (xy 170.18 27.94)
 		)
 		(stroke
@@ -4240,16 +3615,6 @@
 			(type default)
 		)
 		(uuid "eea42987-c60f-49f8-94f5-e4183544d7c4")
-	)
-	(wire
-		(pts
-			(xy 164.592 96.774) (xy 164.592 106.934)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e79b7f-4f28-442c-93d0-c387b076b64e")
 	)
 	(wire
 		(pts
@@ -4323,16 +3688,6 @@
 	)
 	(wire
 		(pts
-			(xy 127.508 140.97) (xy 130.302 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcbc66eb-9ae1-4324-81cd-06e1c8c56416")
-	)
-	(wire
-		(pts
 			(xy 190.5 58.42) (xy 195.58 58.42)
 		)
 		(stroke
@@ -4360,72 +3715,6 @@
 			(type default)
 		)
 		(uuid "ff4b1064-4cdc-45de-902c-96a68c414bf8")
-	)
-	(text "19"
-		(exclude_from_sim no)
-		(at 31.75 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "625ba08f-01d1-46e2-8310-476cd8a02e59")
-	)
-	(text "18"
-		(exclude_from_sim no)
-		(at 31.75 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "62a65e5a-49f1-4f0d-9369-ed128347ffda")
-	)
-	(text "16"
-		(exclude_from_sim no)
-		(at 31.75 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "768dc4d3-f7ba-459b-bcd4-b1498bceb024")
-	)
-	(text "15"
-		(exclude_from_sim no)
-		(at 31.75 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "81d1c5df-bc1d-4eed-aa62-f790ff1c561e")
-	)
-	(text "(Right half)"
-		(exclude_from_sim no)
-		(at 27.94 68.58 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "906a23f9-0d35-4be3-9520-ce15c406a079")
-	)
-	(text "17"
-		(exclude_from_sim no)
-		(at 31.75 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e40eed40-a3a5-41e1-9ec9-2216afb34e9f")
 	)
 	(label "k21"
 		(at 87.63 62.23 180)
@@ -4466,26 +3755,6 @@
 			(justify left bottom)
 		)
 		(uuid "060c1fe6-a49b-4ff6-a117-afacbc01ba30")
-	)
-	(label "LED2-3"
-		(at 226.822 96.774 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "08bb6ee3-0f60-47a5-b55c-f0dfe6129389")
-	)
-	(label "RGB"
-		(at 34.29 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "095b3495-b29d-4a7d-bdc6-568d5bb62834")
 	)
 	(label "k15"
 		(at 87.63 54.61 180)
@@ -4536,46 +3805,6 @@
 			(justify right bottom)
 		)
 		(uuid "198d4744-8930-4ed5-9dd6-54153bf46182")
-	)
-	(label "LED2-3"
-		(at 146.812 96.774 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "19e16541-6fed-4eb1-bc4c-f8ddb72f2018")
-	)
-	(label "LED6-7"
-		(at 182.372 130.81 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24d0f763-132b-4956-a60c-127408610446")
-	)
-	(label "LED4-5"
-		(at 226.822 130.81 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3042372a-17fe-4841-9576-b3218c3722b7")
-	)
-	(label "LED1-2"
-		(at 244.602 96.774 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "423953f2-1054-4a5d-a424-96bc2637c96c")
 	)
 	(label "k05"
 		(at 34.29 34.29 0)
@@ -4647,16 +3876,6 @@
 		)
 		(uuid "60041f66-b83b-40ba-b90e-b2fd36136f5b")
 	)
-	(label "LED1-2"
-		(at 164.592 96.774 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "62bd611f-735a-4ead-80bb-ec91e08a20e3")
-	)
 	(label "k13"
 		(at 87.63 52.07 180)
 		(effects
@@ -4686,26 +3905,6 @@
 			(justify left bottom)
 		)
 		(uuid "70ed26e3-34c1-42b3-84ee-4b3588d1af27")
-	)
-	(label "LED6-7"
-		(at 262.382 130.81 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "75ed3615-7bde-4587-afef-9d79dd6739ce")
-	)
-	(label "LED3-4"
-		(at 207.518 96.774 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f8e716b-b01b-4ec6-8851-40a674200be8")
 	)
 	(label "k24"
 		(at 87.63 57.15 180)
@@ -4746,16 +3945,6 @@
 			(justify left bottom)
 		)
 		(uuid "90862a90-3de2-4eb1-b309-71699a3b47ea")
-	)
-	(label "RGB"
-		(at 267.462 106.934 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "90c98c98-d15d-4817-9cd4-8e227e640ce3")
 	)
 	(label "k23"
 		(at 190.5 58.42 0)
@@ -4806,16 +3995,6 @@
 			(justify left bottom)
 		)
 		(uuid "99d5c3c7-8b2e-4640-88ce-b972db8d82af")
-	)
-	(label "LED3-4"
-		(at 127.508 96.774 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "99dd5a18-02cf-4359-955c-b761327a9bfd")
 	)
 	(label "k11"
 		(at 139.7 43.18 0)
@@ -4927,16 +4106,6 @@
 		)
 		(uuid "bfa22003-df03-4d88-aabf-4300f1110b4a")
 	)
-	(label "LED5-6"
-		(at 244.602 130.81 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0e2f435-a7ef-47e8-be38-6cb2e4208280")
-	)
 	(label "k30"
 		(at 34.29 77.47 0)
 		(effects
@@ -4946,26 +4115,6 @@
 			(justify left bottom)
 		)
 		(uuid "c243739d-ca43-4c1e-9809-65827bf84ba3")
-	)
-	(label "RGB"
-		(at 187.452 106.934 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c60bcf72-2e0c-4a62-b988-e43146a4d211")
-	)
-	(label "LED4-5"
-		(at 146.812 130.81 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf5d0383-4f0d-4428-b0dc-02b2e746e033")
 	)
 	(label "k21"
 		(at 139.7 58.42 0)
@@ -5067,82 +4216,6 @@
 		)
 		(uuid "fa209de3-a81a-4ef5-b987-5b90226e3e0a")
 	)
-	(label "LED5-6"
-		(at 164.592 130.81 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fd87929c-c2a9-4b53-80a7-496678630c41")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 253.492 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0068a81d-5455-4df3-ac8f-6059db9e453f")
-		(property "Reference" "#PWR08"
-			(at 253.492 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 253.492 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 253.492 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 253.492 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 253.492 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f83125d-a7aa-40f0-bf15-69c8bfd44fc3")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 78.74 148.59 0)
@@ -5216,148 +4289,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.932 114.554 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0798339d-05ef-4e3d-9c97-5b49dbf446e9")
-		(property "Reference" "#PWR018"
-			(at 217.932 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.932 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.932 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.932 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.932 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df6d453a-ad59-4bea-955a-ddedc60cfa6d")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 235.712 106.934 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09748089-05c4-412d-8d24-93132da07e1c")
-		(property "Reference" "LED_R2"
-			(at 235.712 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 235.712 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 234.442 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 233.172 116.459 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 235.712 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a8e5f4b-a8f0-42f6-adb3-ce4c144d35a1")
-		)
-		(pin "2"
-			(uuid "f6a42869-0498-4c95-b8e2-4f690a138f39")
-		)
-		(pin "3"
-			(uuid "e758747d-ab55-4021-9e4c-6bad777c9b62")
-		)
-		(pin "4"
-			(uuid "5bd84757-0765-4a7c-9eff-af9285bd7f9c")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 236.22 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5416,82 +4347,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 173.482 106.934 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e2f8d78-eb4e-49dc-b331-fcbc5aaa1090")
-		(property "Reference" "LED_L1"
-			(at 173.482 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 173.482 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 172.212 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 170.942 116.459 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.482 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a53d864-633c-41a6-ac06-f30b79fd8d06")
-		)
-		(pin "2"
-			(uuid "b8194f52-36a2-453d-a89b-ca622c7497be")
-		)
-		(pin "3"
-			(uuid "9649f297-c447-48ab-a259-77268557c873")
-		)
-		(pin "4"
-			(uuid "40008408-dd26-40f5-a89d-9493b8004d0f")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_L1")
 					(unit 1)
 				)
 			)
@@ -5565,137 +4420,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 235.712 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12ff9aaf-daa4-4cdd-980c-c360bf2c84fa")
-		(property "Reference" "#PWR06"
-			(at 235.712 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 235.712 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 235.712 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 235.712 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 235.712 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7f1716f-63a3-4b14-9bac-9848bd850dfb")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 271.272 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17230380-084e-4948-a9fa-dcdb09f7da61")
-		(property "Reference" "#PWR025"
-			(at 271.272 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 271.272 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.272 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.272 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 271.272 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fe98e4f-2e28-4014-8245-c518b7b96a56")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "keyboard_parts:KEYSW")
 		(at 254 27.94 0)
 		(unit 1)
@@ -5757,138 +4481,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "K05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.482 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b262588-1cfa-465d-8572-de0e8ed742e4")
-		(property "Reference" "#PWR016"
-			(at 173.482 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.482 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.482 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.482 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.482 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f7e2f1d-b8c0-4485-bb9b-4cbc9e8a8d75")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.932 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d040bb5-94ea-40be-bf8b-5c225ae83d64")
-		(property "Reference" "#PWR020"
-			(at 217.932 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.932 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.932 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.932 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.932 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bc81b4d-378c-4613-ac53-1bcf041c08e6")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6021,72 +4613,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 191.262 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25464431-9122-4c29-ae1a-882b26cd5aa4")
-		(property "Reference" "#PWR028"
-			(at 191.262 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.262 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.262 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.262 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.262 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b67d79e1-93cd-48f9-9437-45c10c8b50c7")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6470,71 +4996,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 155.702 99.314 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37b389d9-f2c2-474e-a675-1b44313c9ac8")
-		(property "Reference" "#PWR09"
-			(at 155.702 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 155.702 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.702 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 155.702 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 155.702 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fb9777c-4a67-40ca-a8ea-8ede531ddb26")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 236.22 76.2 0)
 		(unit 1)
@@ -6595,82 +5056,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 253.492 106.934 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39dac0d2-af73-486b-a3ec-236515802ac5")
-		(property "Reference" "LED_R1"
-			(at 253.492 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 253.492 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 252.222 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 250.952 116.459 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 253.492 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12192c91-1698-40f6-8d23-ac3a81009ce8")
-		)
-		(pin "2"
-			(uuid "f39081d1-a385-4061-9b69-71e74e4ce18a")
-		)
-		(pin "3"
-			(uuid "c3dec8c5-81af-4046-b548-c0ee892100f9")
-		)
-		(pin "4"
-			(uuid "61c66848-1cd9-4716-ac72-1adb70d1b8dd")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_R1")
 					(unit 1)
 				)
 			)
@@ -6810,222 +5195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 191.262 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b2b2ab1-e56c-47d4-9ab9-2118c77cc188")
-		(property "Reference" "#PWR027"
-			(at 191.262 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 191.262 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.262 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.262 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.262 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65194c3e-29c6-4667-8ae7-0811cc933a62")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 271.272 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "412d19bf-ad61-41aa-a077-604987055e1c")
-		(property "Reference" "LED_R7"
-			(at 271.272 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 271.272 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 272.542 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 273.812 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 271.272 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7eb90663-3a8a-46a8-a417-562a6905d335")
-		)
-		(pin "2"
-			(uuid "f0a053f1-3552-466c-acbe-0242936dd0bf")
-		)
-		(pin "3"
-			(uuid "b5029d89-02a9-4079-a4d5-61fe0d3de97e")
-		)
-		(pin "4"
-			(uuid "27e96e79-a77f-40e1-8c5c-90e40833c2c0")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 217.932 106.934 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "435781a9-8827-49f0-8e9b-57b95699eebf")
-		(property "Reference" "LED_R3"
-			(at 217.932 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 217.932 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 216.662 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 215.392 116.459 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.932 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a704d58-ac2a-4c03-a1a7-e39cafadd5d7")
-		)
-		(pin "2"
-			(uuid "4c1be44f-98d2-4e05-9484-777a49a2d240")
-		)
-		(pin "3"
-			(uuid "d1e18ed1-44df-4435-b294-d2ef57d8656f")
-		)
-		(pin "4"
-			(uuid "a627e704-5efd-465b-99e1-6db15296884e")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "keyboard_parts:KEYSW")
 		(at 254 73.66 0)
 		(unit 1)
@@ -7087,81 +5256,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "K32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 235.712 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46c18820-55be-4330-91ab-ef4b9a512b0c")
-		(property "Reference" "LED_R5"
-			(at 235.712 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 235.712 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 236.982 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 238.252 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 235.712 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fa3d7c6-8de8-4d02-bfd0-225b5717c932")
-		)
-		(pin "2"
-			(uuid "b3b5bbe3-9bd9-42c9-a99e-0583653c2032")
-		)
-		(pin "3"
-			(uuid "d913daab-fb27-404d-919f-9d54e5c5d62f")
-		)
-		(pin "4"
-			(uuid "a07f0f02-6dbf-4e14-ae24-ebf6356125b2")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_R5")
 					(unit 1)
 				)
 			)
@@ -7498,148 +5592,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.272 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58ffe3fd-041b-4f79-ac96-c305917324a5")
-		(property "Reference" "#PWR026"
-			(at 271.272 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.272 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.272 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.272 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 271.272 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "439e9425-9628-4fc6-b0af-128121b05556")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 137.922 106.934 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59b92310-e07a-412a-889b-b32e95618b62")
-		(property "Reference" "LED_L3"
-			(at 137.922 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 137.922 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 136.652 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 135.382 116.459 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.922 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "199537f3-a459-4e6b-9434-786aaaf0d6ef")
-		)
-		(pin "2"
-			(uuid "3619f363-9464-4334-8574-22745902163c")
-		)
-		(pin "3"
-			(uuid "ddf8c222-9bfd-4291-b8a5-673291bb6bd1")
-		)
-		(pin "4"
-			(uuid "5df21086-13c5-4466-9d3d-ef9920f67fd9")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 261.62 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7698,201 +5650,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 217.932 99.314 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d9317a0-1a23-446d-b3f7-9888d11860bb")
-		(property "Reference" "#PWR017"
-			(at 217.932 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 217.932 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.932 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.932 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.932 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65cd763d-87f2-467d-92f8-31ddbb73b9bd")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 235.712 99.314 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e954d85-ccc4-4a08-9adc-49731b30109a")
-		(property "Reference" "#PWR03"
-			(at 235.712 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 235.712 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 235.712 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 235.712 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 235.712 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a1d7f73-6174-4306-b63f-850da42dec32")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 155.702 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "613fb8c6-12de-460b-85bf-f35339bac181")
-		(property "Reference" "#PWR011"
-			(at 155.702 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 155.702 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.702 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 155.702 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 155.702 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69cff45f-0c11-427e-8b2d-a81ef07af7e1")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7959,212 +5716,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 235.712 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6186c53a-4daa-4407-8c24-1b83740ed84c")
-		(property "Reference" "#PWR05"
-			(at 235.712 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 235.712 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 235.712 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 235.712 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 235.712 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "914ae504-848b-46c4-86a2-2d80e3099638")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 155.702 106.934 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61b3d0f1-be7a-4e74-bbc7-59795a89f083")
-		(property "Reference" "LED_L2"
-			(at 155.702 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 155.702 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 154.432 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 153.162 116.459 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 155.702 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a1dc09a-4090-490b-8f64-e350a2e9b1f4")
-		)
-		(pin "2"
-			(uuid "712a86ea-8204-4715-bd0d-fb36b3993c0b")
-		)
-		(pin "3"
-			(uuid "d7835252-56a7-4c2a-bc41-e185a1fb5279")
-		)
-		(pin "4"
-			(uuid "2982a0af-d734-48fc-8df9-d60588765e1e")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 253.492 99.314 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6839d260-46a5-45b5-b302-5e153edf02da")
-		(property "Reference" "#PWR01"
-			(at 253.492 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 253.492 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 253.492 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 253.492 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 253.492 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e17ec11d-c6c2-4980-b00a-e5441d3a7b97")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8306,72 +5857,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 155.702 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fd2005d-03c2-419d-8894-ede91d10e883")
-		(property "Reference" "#PWR012"
-			(at 155.702 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 155.702 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.702 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 155.702 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 155.702 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e0c1296-ef78-4ea2-b643-5c4ad7275af3")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 40.64 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8430,72 +5915,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 155.702 114.554 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7606f779-7a32-43e0-823f-93b40c7bf5ac")
-		(property "Reference" "#PWR010"
-			(at 155.702 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 155.702 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.702 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 155.702 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 155.702 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b76e33c5-716b-4951-a86d-cf9636b302f5")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8867,146 +6286,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 137.922 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84252076-5bfa-40a9-8313-eea85e5c5d09")
-		(property "Reference" "LED_L4"
-			(at 137.922 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 137.922 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 139.192 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 140.462 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.922 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d72f8e8f-afca-405e-9622-3f0e3a8cecab")
-		)
-		(pin "2"
-			(uuid "3e25560a-ad83-485a-9e62-45d0b6ca7bd7")
-		)
-		(pin "3"
-			(uuid "1daf8986-3834-4b54-b522-2f41639a7cd4")
-		)
-		(pin "4"
-			(uuid "0a342e5a-0105-49fa-a974-cb6676aea3d6")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 173.482 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86b5e812-466b-4dd0-93ab-7f09dc43cfeb")
-		(property "Reference" "#PWR015"
-			(at 173.482 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 173.482 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.482 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.482 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.482 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "083bab02-aca9-4b2b-89d3-4200db52306d")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "keyboard_parts:KEYSW")
 		(at 127 27.94 0)
 		(unit 1)
@@ -9068,137 +6347,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "K00")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 235.712 114.554 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86eec08a-a955-4c87-ae02-49e3286453db")
-		(property "Reference" "#PWR04"
-			(at 235.712 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 235.712 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 235.712 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 235.712 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 235.712 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c155e844-a0d6-44e5-8439-02b7166cb412")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 173.482 99.314 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87297fad-5918-4c21-a3d6-3b08566d25e5")
-		(property "Reference" "#PWR013"
-			(at 173.482 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 173.482 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.482 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.482 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.482 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "085380fa-0b15-4e2c-900a-43a3dbe9fcf7")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9414,71 +6562,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 137.922 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8dd65a0f-a3be-480e-ab23-df4f6aa3d57e")
-		(property "Reference" "#PWR023"
-			(at 137.922 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 137.922 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.922 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.922 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.922 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52446d34-3f18-4438-9a06-58cf925032b5")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 81.28 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9604,72 +6687,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.922 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91747f3d-a79f-47ed-b746-b125a0bc0965")
-		(property "Reference" "#PWR024"
-			(at 137.922 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.922 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.922 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.922 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.922 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1cebf6c-ef72-4994-9881-51ec06f43d86")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9809,81 +6826,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 155.702 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4a35b40-985f-4251-9595-7002f8ee9fca")
-		(property "Reference" "LED_L5"
-			(at 155.702 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 155.702 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 156.972 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 158.242 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 155.702 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "712f3e74-b08f-4d31-b584-57e2cd1bc45d")
-		)
-		(pin "2"
-			(uuid "4ac4cb41-7b4d-4dad-ad6e-c252459efdeb")
-		)
-		(pin "3"
-			(uuid "0b1fefb8-de80-4042-ae60-844b2c326554")
-		)
-		(pin "4"
-			(uuid "f18e7c45-fed1-4c46-8171-6a046939f2fa")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 210.82 60.96 0)
 		(unit 1)
@@ -10008,71 +6950,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 137.922 99.314 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a81827cb-7ae7-4f4f-a328-ac530c718d2c")
-		(property "Reference" "#PWR021"
-			(at 137.922 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 137.922 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.922 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.922 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.922 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd8294dc-dc66-4f62-a5e7-efa5abf85eb4")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10678,71 +7555,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 253.492 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4ef13c8-b887-4cd0-84b5-e405b20eb64a")
-		(property "Reference" "#PWR07"
-			(at 253.492 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 253.492 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 253.492 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 253.492 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 253.492 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45ffdd84-3219-46ea-a7c5-fe0d39e81a07")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "keyboard_parts:KEYSW")
 		(at 203.2 27.94 0)
 		(unit 1)
@@ -10871,213 +7683,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "K11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.482 114.554 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdbed7c8-fd6c-4235-9cfa-033979f01863")
-		(property "Reference" "#PWR014"
-			(at 173.482 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.482 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.482 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.482 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.482 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b613b775-cf6e-4648-ab75-17f8fa6af5c5")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 253.492 114.554 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d109db51-9a56-4238-94ca-c2add3cc9499")
-		(property "Reference" "#PWR02"
-			(at 253.492 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 253.492 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 253.492 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 253.492 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 253.492 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7aa846d-dbc2-425a-9968-a25c83b83f46")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 217.932 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d367266d-2999-41f1-85c3-472b6d9684fe")
-		(property "Reference" "LED_R4"
-			(at 217.932 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 217.932 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 219.202 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 220.472 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.932 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6181d28-2b09-4b69-9fef-a6f1c4570067")
-		)
-		(pin "2"
-			(uuid "d4699d4f-708a-4c82-8827-982c6ab7e0a9")
-		)
-		(pin "3"
-			(uuid "5f7aca00-3c0c-41be-abda-69acf433fe9b")
-		)
-		(pin "4"
-			(uuid "6a785b3a-665f-43d6-83fb-6725cd707289")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_R4")
 					(unit 1)
 				)
 			)
@@ -11413,81 +8018,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 173.482 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d77fab66-f253-4dd4-bc5e-62c340df1ba3")
-		(property "Reference" "LED_L6"
-			(at 173.482 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 173.482 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 174.752 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 176.022 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.482 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "547efb3e-2af9-47b3-9e0c-bc1b6cc2c683")
-		)
-		(pin "2"
-			(uuid "2f37a2a2-4df0-4d00-8640-d1f4c92378dc")
-		)
-		(pin "3"
-			(uuid "f66c5cf3-f6fc-434d-8ea7-8ab78afc3a74")
-		)
-		(pin "4"
-			(uuid "fb43dbd7-8ee1-4637-8269-8126485a8117")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_L6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 160.02 60.96 0)
 		(unit 1)
@@ -11612,81 +8142,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 191.262 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df26983c-9c20-4ec4-922b-54d6fefd5f65")
-		(property "Reference" "LED_L7"
-			(at 191.262 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 191.262 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 192.532 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 193.802 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.262 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5498f437-ff8b-4c8e-acc5-8a7dbbc07a59")
-		)
-		(pin "2"
-			(uuid "8673e561-f558-4b2e-a35c-05c08c29d3cb")
-		)
-		(pin "3"
-			(uuid "274acac0-a2ee-4f16-8202-ed9ba5a8d11a")
-		)
-		(pin "4"
-			(uuid "6f7e249b-05fd-4faa-adc3-7dbf3941b143")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_L7")
 					(unit 1)
 				)
 			)
@@ -11818,71 +8273,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 217.932 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e42709ce-fc8b-4763-bde0-2e9361a6f188")
-		(property "Reference" "#PWR019"
-			(at 217.932 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 217.932 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.932 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.932 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.932 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c1e883c-adbf-485f-983c-96c03c4458ef")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12021,81 +8411,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 253.492 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e8f93d46-38aa-46c6-87e3-0fc890c37c8e")
-		(property "Reference" "LED_R6"
-			(at 253.492 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 253.492 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "42keebs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_w_cutout"
-			(at 254.762 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 256.032 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 253.492 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb3096b4-14fd-4eed-87ed-4b01187244bf")
-		)
-		(pin "2"
-			(uuid "25c3a872-bb81-481f-a992-9c113fb0b10c")
-		)
-		(pin "3"
-			(uuid "8a9c1b1f-e951-49ee-b8d0-6789fb55c58c")
-		)
-		(pin "4"
-			(uuid "a8b7d5f5-b746-4b65-823f-7888f7090743")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "LED_R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 160.02 30.48 0)
 		(unit 1)
@@ -12155,72 +8470,6 @@
 			(project "cantor-pro-mx-pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.922 114.554 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3daa178-31eb-49a0-bfaa-c93ffea6ab9e")
-		(property "Reference" "#PWR022"
-			(at 137.922 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.922 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.922 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.922 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.922 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4637f1f0-81fa-44c2-842a-5b0889d96bfc")
-		)
-		(instances
-			(project "cantor-pro-mx-pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12297,4 +8546,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
